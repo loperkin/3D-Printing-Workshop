@@ -1,240 +1,226 @@
 # 🖨️ 3D Printing Workshop
 
-### Purpose in Practice — Learn it. Build it. Put it into practice.
+### Purpose in Practice
 
-Welcome to my 3D printing workshop!
+**Learn it. Build it. Put it into practice.**
 
-I'm a maker, DIY enthusiast, IT professional, and lifelong tinkerer who enjoys designing, building, and figuring out how things work.
+Welcome to my 3D Printing Workshop!
 
-For me, 3D printing isn't just about making plastic objects. It's about solving problems, creating useful things, and turning ideas into something you can actually hold in your hands.
+I'm Lee Perkins, an IT professional, maker, DIYer, and lifelong tinkerer.
 
-This repository is where I document my 3D printing projects, equipment, materials, modifications, experiments, and lessons learned.
+I use 3D printing to turn ideas into useful, physical objects. Most of my projects involve electronics enclosures, home automation, custom brackets, replacement parts, and solving problems around the house.
 
-Some projects turn out great. Others need a few revisions. And occasionally, something comes off the printer that's just plain janky.
+Some designs work the first time.
 
-That's part of the fun!
+Others take a few revisions before they become considerably less janky.
 
-## 🖨️ My 3D Printing Setup
-
-### Bambu Lab A1
-
-My primary 3D printer is the **Bambu Lab A1**.
-
-I primarily use it for functional parts, custom electronics enclosures, brackets, household projects, and prototypes.
-
-**Printer Specifications:**
-
-- Build Volume: 256 × 256 × 256 mm
-- Included Nozzle: 0.4 mm stainless steel
-- Optional Nozzles: 0.2 mm, 0.6 mm, and 0.8 mm
-- Maximum Hotend Temperature: 300°C
-- Maximum Build Plate Temperature: 100°C
-- Maximum Toolhead Speed: 500 mm/s
-- Slicer: Bambu Studio
-- Supported Materials: PLA, PETG, TPU, and PVA
-
-**Where to Buy:**
-
-The official manufacture is linked below.
-
-[Bambu Lab A1 — Compare Prices](https://geni.us/2uwo9G)
-
-### 🔲 Build Plates
-
-**BIQU CryoGrip Pro Glacier**
-
-I use the BIQU CryoGrip Pro Glacier build plate to improve print adhesion and consistency.
-
-[BIQU CryoGrip Pro Glacier — Compare Prices](https://geni.us/ubKy1)
-
-### 🧵 Filament & Materials
-
-Most of my printing is done with **Bambu Lab PETG**.
-
-I generally prefer PETG for the functional parts and electronics projects I build.
-
-#### Bambu Lab PETG Basic
-
-My primary filament for everyday functional printing, electronics enclosures, brackets, and other practical projects.
-
-[Bambu PETG Basic — Compare Prices](https://geni.us/4HC3cQ)
-
-#### Bambu Lab PETG Translucent
-
-I also use PETG Translucent when I want light to pass through a printed part or when a project benefits from a translucent appearance.
-
-[Bambu PETG Translucent — Compare Prices](https://geni.us/jEhyD)
-
-### 🛒 Equipment & Affiliate Disclosure
-
-The equipment listed above reflects products I personally use in my workshop.
-
-Some links may be affiliate or referral links. I may receive a commission from qualifying purchases at no additional cost to you.
-
-Purchases made through these links help support Purpose in Practice and future projects.
-
-
-### 🔧 Tools & Accessories
-
-A few things that make 3D printing easier:
-
-- Filament storage and drying equipment
-- Digital calipers
-- Deburring and finishing tools
-- Nozzle cleaning tools
-- Adhesion and build plate accessories
-- Basic electronics and assembly tools
-
-See [Equipment](Equipment/) for detailed information and recommended products.
+This repository is where I share my equipment, printing experiences, original designs, experiments, and lessons learned.
 
 ---
 
-## 📦 My 3D Printing Projects
+## 🛠️ My 3D Printing Setup
 
-This is where I'll showcase the things I've designed, printed, modified, or experimented with.
+My primary printer is the **Bambu Lab A1**, and I primarily print with **Bambu Lab PETG**.
 
-Some projects have their own dedicated GitHub repositories, while smaller designs and experiments will live here.
+| Equipment | What I Use |
+|---|---|
+| 3D Printer | [Bambu Lab A1](https://geni.us/2uwo9G) |
+| Build Plate | [BIQU CryoGrip Pro Glacier](https://geni.us/ubKy1) |
+| Primary Filament | [Bambu Lab PETG Basic](https://geni.us/4HC3cQ) |
+| Additional Filament | [Bambu Lab PETG Translucent](https://geni.us/jEhyD) |
+| Slicer | Bambu Studio |
+
+I generally prefer PETG for functional prints because of its toughness and better heat resistance compared with standard PLA.
+
+### Equipment Guides
+
+- [🖨️ Printers](Equipment/Printers.md) — My printer, specifications, and setup
+- [🔲 Build Plates](Equipment/Build-Plates.md) — Build surfaces and adhesion
+- [🧵 Filament & Materials](Equipment/Filament.md) — Filament choices and applications
+- [🛠️ Tools & Accessories](Equipment/Tools-and-Accessories.md) — Workshop tools and equipment
+
+---
+
+## ⚙️ Print Settings & Troubleshooting
+
+Printing a part is one thing.
+
+Printing a part that fits, works, and holds up to actual use is another.
+
+I'm documenting printing recommendations, experiments, and lessons learned for the materials and equipment I use.
+
+### Printing Guides
+
+- [PETG Print Settings](Print-Settings/PETG.md) — PETG starting profiles, strength, cooling, and adhesion
+- [PLA Print Settings](Print-Settings/PLA.md) — PLA printing recommendations
+- [Troubleshooting](Print-Settings/Troubleshooting.md) — Common printing problems and possible solutions
+
+These guides distinguish general starting recommendations from settings I've personally tested.
+
+---
+
+## 📂 My 3D Printing Projects
+
+Most of my designs are functional parts created to solve a specific problem.
+
+Some are standalone prints. Others are part of larger electronics and home automation projects.
 
 ### 🔐 ESPHome Alarmo Keypad Enclosure
 
-A custom 3D-printed enclosure designed for my ESP32-C3 security keypad.
+A custom 3D-printed enclosure for my physical Home Assistant alarm keypad.
 
-The goal was to take a working electronics prototype and turn it into something that looked like a finished wall-mounted device.
+The project combines an ESP32-C3, OLED display, 4×4 keypad, buzzer, and custom PCB.
 
-**Features:**
-- Custom enclosure for the keypad electronics
-- Designed around a dedicated PCB
-- Wall-mounted design
-- Printable and customizable
+The enclosure replaces the original project box with a cleaner, wall-mounted design.
 
-**Project files and documentation:**
+**[View Enclosure Project](Projects/Alarmo-Keypad-Case/README.md)**
 
-[Another ESPHome Alarmo Keypad](https://github.com/loperkin/another-esphome-alarmo-keypad)
+**[Complete Alarmo Keypad Repository](https://github.com/loperkin/another-esphome-alarmo-keypad)**
 
-### 🌡️ ESPHome MultiSensor Enclosures
+### 🏠 ESPHome MultiSensor Enclosures
 
-Custom enclosures and mounting solutions for my ESPHome environmental sensors.
+Custom enclosures for my ESPHome room sensors.
 
-These projects combine electronics and 3D printing to create compact devices that monitor:
+These projects combine mmWave presence detection, ambient light, temperature, and humidity sensing.
 
-- Human presence
-- Temperature
-- Humidity
-- Ambient light
+They include the original MultiSensor and the newer Decora-style wall-mounted version.
 
-**Project files and documentation:**
+The Decora design is still evolving, including work on temperature measurement accuracy.
 
-[ESPHome MultiSensor](https://github.com/loperkin/ESPHome-MultiSensor-presence-light-temp-hum)
+**[View MultiSensor Enclosure Projects](Projects/MultiSensor-Enclosures/README.md)**
 
-### 🏠 Household Projects
+**Project Repositories:**
 
-Functional prints designed to solve everyday problems around the house.
+- [ESPHome MultiSensor](https://github.com/loperkin/ESPHome-MultiSensor-presence-light-temp-hum)
+- [ESPHome MultiSensor Decora](https://github.com/loperkin/ESPHome-MultiSensor-Decora)
 
-Projects will be added as they're documented.
+### 🧰 Other Projects & Experiments
 
-### 🧪 Experiments & Prototypes
+Not every design needs an entire repository.
 
-Not every project needs to become a finished product.
+This section is for smaller prints, household fixes, adapters, brackets, workshop accessories, and experimental designs.
 
-This section will include experiments, prototypes, design revisions, and the occasional spectacular failure.
-
-Because sometimes figuring out why something didn't work is just as useful as making something that does.
+**[Browse Other Projects](Projects/Other-Projects/README.md)**
 
 ---
 
-## ⚙️ Print Settings & Profiles
+## 🗂️ Repository Directory
 
-I'll share print settings that have worked for my equipment and projects.
+```text
+3D-Printing-Workshop/
+├── README.md
+├── LICENSE.md
+├── LICENSE-MIT.txt
+├── LICENSE-CERN-OHL-W-2.0.txt
+│
+├── Equipment/
+│   ├── Printers.md
+│   ├── Build-Plates.md
+│   ├── Filament.md
+│   └── Tools-and-Accessories.md
+│
+├── Print-Settings/
+│   ├── PETG.md
+│   ├── PLA.md
+│   └── Troubleshooting.md
+│
+├── Projects/
+│   ├── Alarmo-Keypad-Case/
+│   │   └── README.md
+│   ├── MultiSensor-Enclosures/
+│   │   └── README.md
+│   └── Other-Projects/
+│       └── README.md
+│
+└── Images/
+```
 
-Topics include:
-
-- PLA and PETG profiles
-- Layer heights and wall thickness
-- Infill selection
-- Supports and orientation
-- Bed adhesion
-- Dimensional accuracy
-- Troubleshooting common print problems
-
-**Important:** These are settings based on my own equipment and experience. Results may vary depending on printer, filament, environment, and design.
-
-See [Print Settings](Print-Settings/) for more information as it becomes available.
-
----
-
-## 💡 Lessons Learned
-
-One of the reasons I started documenting my projects is that I tend to learn just as much from fixing problems as I do from building something successfully.
-
-I'll share what works, what doesn't, and what I'd do differently next time.
-
-That includes things like:
-
-- Improving print adhesion
-- Choosing between PLA and PETG
-- Designing enclosures for electronics
-- Reducing unnecessary supports
-- Improving fit and tolerances
-- Making designs easier to assemble
-- Getting better results without wasting filament
-
-The goal isn't to pretend every project comes out perfectly.
-
-It's to make the next one better.
+The directory structure will grow as I add new projects, photographs, printable files, and documentation.
 
 ---
 
-## 🛒 Equipment & Product Links
+## 🧠 My Approach to 3D Printing
 
-I occasionally share links to printers, filament, tools, accessories, and components I've used or recommend.
+My process is rarely:
 
-Where available, Geniuslink links may help you compare purchasing options from different retailers.
+**Idea → Perfect Design → Finished Print**
 
-You don't need to buy the exact equipment I use to follow along with these projects.
+It's usually closer to:
 
-Use what works for your budget, equipment, and needs.
+**Idea → Design → Print → Test → Find Problem → Redesign → Print Again → Share**
 
-**Affiliate Disclosure:** Some product links in this repository are affiliate or referral links. I may receive a commission from qualifying purchases at no additional cost to you. These links help support future Purpose in Practice projects.
+Sometimes a model looks perfect on the computer but doesn't fit once printed.
 
----
+Sometimes the problem is the filament.
 
-## 📜 Licensing & Open Source
+Sometimes it's the slicer settings.
 
-I believe in sharing designs and helping other makers learn, experiment, and improve on existing ideas.
+And sometimes I simply measured something wrong.
 
-Unless otherwise noted:
-
-- **Original 3D-printable and mechanical designs:** CERN-OHL-W-2.0
-- **Original software, scripts, and configuration files:** MIT License
-- **Documentation, photography, videos, and Purpose in Practice branding:** Copyright © 2026 Lee Perkins, except where otherwise licensed
-- **Third-party designs and remixes:** Subject to their original licenses
-
-See [LICENSE.md](LICENSE.md) for the complete licensing information.
+The important part is figuring out why it didn't work and making the next version better.
 
 ---
 
-## 🎥 Purpose in Practice
+## 🤝 Open Source & Attribution
 
-Purpose in Practice is about more than 3D printing.
+I believe in sharing what I learn.
 
-I work on electronics, ESP32 projects, ESPHome, Home Assistant, DIY automation, and other things that interest me.
+When possible, I'll provide printable files, design information, and documentation so others can reproduce or improve my projects.
 
-The common theme is taking an idea, learning what it takes to make it work, and putting that knowledge into practice.
+When I modify someone else's design, I'll credit the original creator and follow the applicable license.
 
-**YouTube:** https://www.youtube.com/@PurposeinPracticeCh
+Some designs are maintained in their own repositories to avoid duplicating files and creating conflicting versions.
 
-**GitHub:** https://github.com/loperkin
+### Licensing
 
-If you build one of my designs, modify something, or find a better way to accomplish the same thing, I'd love to hear about it.
+Different types of original content in this workshop have different licensing terms:
 
-And if you're just getting started, don't be afraid to experiment.
+- **Original 3D-printable hardware designs:** CERN-OHL-W-2.0
+- **Original software and scripts:** MIT License
+- **Original documentation, photographs, videos, and branding:** Copyright reserved unless otherwise stated
 
-The first version doesn't have to be perfect.
+Third-party materials retain their respective licenses.
 
-Sometimes it just needs to be a little less janky than the last one.
+See [LICENSE.md](LICENSE.md) for the complete licensing explanation and links to the applicable license texts.
+
+---
+
+## 🛒 Equipment & Affiliate Links
+
+I share links to equipment and materials I actually use in my workshop.
+
+Some product links use Geniuslink, which can direct visitors to supported retailers.
+
+I may earn a commission from qualifying purchases at no additional cost to you.
+
+Affiliate commissions help support future Purpose in Practice projects, experiments, and tutorials.
+
+---
+
+## 🎬 Purpose in Practice
+
+This repository is part of **Purpose in Practice**, where I share DIY technology projects, electronics, home automation, 3D printing, and practical problem-solving.
+
+**YouTube:** [Purpose in Practice](https://www.youtube.com/@PurposeinPracticeCh)
+
+**GitHub:** [loperkin](https://github.com/loperkin)
+
+The goal is simple:
+
+### Turning curiosity into capability.
+
+Learn something.
+
+Build something.
+
+Fix something.
+
+Share what you discovered.
+
+Then find the next thing you're curious about.
 
 ---
 
 ### Learn it. Build it. Put it into practice.
 
-**Purpose in Practice**
+*Purpose in Practice*
