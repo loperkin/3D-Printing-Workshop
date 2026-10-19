@@ -8,7 +8,7 @@ This repository includes original 3D-printable designs, code, project documentat
 
 Unless a project folder says otherwise, original 3D models and physical hardware designs (including STL, STEP, 3MF, enclosures, brackets, mounts, and design source files) are licensed under **CERN Open Hardware Licence Version 2 — Weakly Reciprocal (CERN-OHL-W-2.0)**.
 
-**[CERN-OHL-W-2.0 License](LICENSE-CERN-OHL-W-2.0.txt)
+[CERN-OHL-W-2.0 License](LICENSE-CERN-OHL-W-2.0.txt)
 
 This license permits making, using, modifying, and selling covered designs and products, subject to its conditions, including applicable source-sharing and notice requirements. Where practical, publish editable source models alongside printable exports.
 
