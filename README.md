@@ -35,9 +35,9 @@ I primarily use it for functional parts, custom electronics enclosures, brackets
 
 **Where to Buy:**
 
-[Bambu Lab A1 — Compare Prices]([A1-GENIUSLINK])
+The official manufacture is linked below.
 
-Official Manufacturer: https://us.store.bambulab.com/products/a1
+[Bambu Lab A1 — Compare Prices](https://geni.us/2uwo9G)
 
 ### 🔲 Build Plates
 
@@ -45,7 +45,7 @@ Official Manufacturer: https://us.store.bambulab.com/products/a1
 
 I use the BIQU CryoGrip Pro Glacier build plate to improve print adhesion and consistency.
 
-[BIQU CryoGrip Pro Glacier — Compare Prices]([GLACIER-GENIUSLINK])
+[BIQU CryoGrip Pro Glacier — Compare Prices](https://geni.us/ubKy1)
 
 ### 🧵 Filament & Materials
 
@@ -57,13 +57,13 @@ I generally prefer PETG for the functional parts and electronics projects I buil
 
 My primary filament for everyday functional printing, electronics enclosures, brackets, and other practical projects.
 
-[Bambu PETG Basic — Compare Prices]([PETG-BASIC-GENIUSLINK])
+[Bambu PETG Basic — Compare Prices](https://geni.us/4HC3cQ)
 
 #### Bambu Lab PETG Translucent
 
 I also use PETG Translucent when I want light to pass through a printed part or when a project benefits from a translucent appearance.
 
-[Bambu PETG Translucent — Compare Prices]([PETG-TRANSLUCENT-GENIUSLINK])
+[Bambu PETG Translucent — Compare Prices](https://geni.us/jEhyD)
 
 ### 🛒 Equipment & Affiliate Disclosure
 
